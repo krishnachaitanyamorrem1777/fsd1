@@ -1,0 +1,55 @@
+
+FORMS AND INPUT:(VIDEO 7)
+
+INPUT TAGS:
+There are 5 input tags.
+1)<input type=”text”>
+2)<input type = “password”>
+3)<input type = “radio”>
+4)<input type = “checkbox”>
+5)<input type = “sumbit”>
+Example:
+<label for="username">enter your name</label>
+    <input type="text" name="username" placeholder="enter your name"> </div>
+    <div>
+   <input type="radio”  name="gender" value="male">
+   <label for="gender">Male</label>
+   <input type="radio"  name="gender" value="female">
+   <label for="gender">female</label>
+    </div>
+    <div>
+    <input type="checkbox" name="subrice" value="no">
+    <label for="name">you have done the subrice</label>
+
+TEXTAREA:
+<textarea name = “comment” rows=”5” colums=”15”> ENTER YOUR COMMENT</textarea>.
+EXAMPLE:
+<textarea name="comment" rows="4" cols="50">
+      Enter your comment here...
+</textarea>
+
+SELECT:
+<select name=” fruits”>
+<option value=”apple”>apple</option>
+</select>
+EXAMPLE:
+<select name="fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="cherry">Cherry</option>
+<
+/FORMS TAG:
+<form action=”/sumbit”>
+
+<input type=”sumbit” value=”sumbit”>
+</form>
+EXAMPLE:
+<form action="/submit">
+      <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+      <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+      </select>
+      <input type="submit" value="Submit">
+</form>
